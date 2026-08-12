@@ -10,7 +10,7 @@ Use only:
 - branch `work/p1-s02-t01-artifact-evidence-substrate-v2`;
 - expected branch SHA `d489d94e1631c982f1579aa7fe378659c9d3805a`;
 - canonical `main` SHA `0f6164b0eb1f1c8e2f890e18d6636f3c0311347b`;
-- accepted engineering-system contract ref `f40d143a2cc47ede625375d16cbdc43eff060414`.
+- accepted engineering-system contract ref declared in `engineering-system/program/work-packages/KILN-01.md`.
 
 Do not create a second Kiln writer or a replacement implementation branch.
 

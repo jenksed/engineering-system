@@ -8,7 +8,7 @@
 | `jenksed/project-arsenal` | `980a58d331f4ed0679e6ae306b9d55b2ee21d179` | ARS-01 has no implementation PR; stale ECC PR #2 is excluded | Start ARS-01 from this exact `main` SHA |
 | `jenksed/loadout` | `cae07f9364c9a65187a7a6fa68710d72474c5dc8` | Bootstrap merged; ECC PR #2 is stale, unmergeable, and excluded | Start LOD-01 from this exact `main` SHA |
 | `jenksed/kiln` | `0f6164b0eb1f1c8e2f890e18d6636f3c0311347b` | PR #62 merged; authorized T01 branch `work/p1-s02-t01-artifact-evidence-substrate-v2` is at `d489d94e1631c982f1579aa7fe378659c9d3805a`; stale ECC PR #2 is excluded | Resume the exact authorized branch; reconcile the recorded `main` merge without widening T01 |
-| `jenksed/engineering-system` | Accepted contract baseline `f40d143a2cc47ede625375d16cbdc43eff060414` | Bootstrap merged; ECC PR #5 is stale, unmergeable, and excluded | Read-only contract and launch-coordination source for all three agents |
+| `jenksed/engineering-system` | Accepted contract baseline `a087c7dc3252241e06248d3a8bf2ee28544360ad` | Bootstrap merged; ECC PR #5 is stale, unmergeable, and excluded | Read-only contract and launch-coordination source for all three agents |
 
 ## Settled facts
 

@@ -12,7 +12,7 @@ Without that token, report `HOLD` and perform no repository mutation.
 
 ## Authoritative state
 
-Read `program/launch/LAUNCH-MANIFEST.yaml` and verify every value independently. The accepted cross-product decision and contracts are from `jenksed/engineering-system@f40d143a2cc47ede625375d16cbdc43eff060414`.
+Read `program/launch/LAUNCH-MANIFEST.yaml` and verify every value independently. The accepted cross-product decision and contracts are from `jenksed/engineering-system` at the ref declared in `engineering-system/program/launch/LAUNCH-MANIFEST.yaml`.
 
 Keep `project-arsenal`, `loadout`, `kiln`, and `engineering-system` as four separate Git repositories in one multi-root project space. Do not create a monorepo, shared mutable database, or combined Git history. Product agents have read-only access to engineering-system.
 
