@@ -1,9 +1,11 @@
 # KIL-01 — Continue Artifact/Evidence Substrate Without Boundary Expansion
 
-**Status:** Proposed coordination wrapper; existing Kiln authority remains controlling  
+**Status:** Owner-approved coordination wrapper; existing Kiln authority remains controlling  
 **Repository:** `jenksed/kiln`  
-**Expected starting SHA:** Record after PR #62 disposition  
-**Branch:** Use the authorized P1-S02-T01 branch/worktree required by Kiln governance
+**Canonical `main` SHA at gate:** `0f6164b0eb1f1c8e2f890e18d6636f3c0311347b`  
+**Expected work-branch SHA:** `d489d94e1631c982f1579aa7fe378659c9d3805a`  
+**Branch:** `work/p1-s02-t01-artifact-evidence-substrate-v2`  
+**Accepted program contract SHA:** `a087c7dc3252241e06248d3a8bf2ee28544360ad`
 
 ## Objective
 
@@ -13,6 +15,7 @@ Continue the already authorized P1-S02-T01 Artifact/Evidence substrate to its ne
 
 - Follow the accepted P1-S02-T01 plan and authorization as the sole implementation authority.
 - Resume from the actual current authorized implementation state after reconciling branch/HEAD truth.
+- Reconcile canonical `main` at `0f6164b0eb1f1c8e2f890e18d6636f3c0311347b` into the clean authorized branch without rebasing or force-pushing; stop if reconciliation conflicts or changes T01 runtime content.
 - Implement only the next valid T01 slice and its required tests/evidence.
 - Preserve append, recovery, and currentness semantics already established by Kiln.
 - Add at most one non-runtime mapping note showing how existing Kiln fields could project into Run Result Envelope v0.
@@ -42,9 +45,8 @@ Continue the already authorized P1-S02-T01 Artifact/Evidence substrate to its ne
 
 ## Stop conditions
 
-- PR #62 remains unresolved at launch.
+- Canonical `main` or the authorized work branch differs from either recorded SHA before preflight reconciliation.
 - Actual HEAD/branch differs from recorded launch state.
 - Existing authorization is absent, withdrawn, or inapplicable.
 - Required work belongs to Loadout, Arsenal, or a future Kiln package.
 - Effects from an earlier interrupted attempt are unknown.
-

@@ -39,7 +39,7 @@ It must not contain product implementation, duplicate product roadmaps, model-sp
 
 ## Current stage
 
-**Pre-launch / Gate 0.** No simultaneous product work should begin until [program/LAUNCH-READINESS.md](program/LAUNCH-READINESS.md) is satisfied and the owner authorizes launch.
+**Launch-ready / final owner gate.** Static preparation is complete. No product writer begins until the combined prompt passes live environment preflight and the owner supplies the final authorization token in [program/LAUNCH-READINESS.md](program/LAUNCH-READINESS.md).
 
 ## Start here
 
@@ -49,5 +49,5 @@ It must not contain product implementation, duplicate product roadmaps, model-sp
 4. [Agent operating model](program/AGENT-OPERATING-MODEL.md)
 5. [Launch readiness](program/LAUNCH-READINESS.md)
 6. [Three work packages](program/work-packages/)
-7. [Integrated proof](demo/90-DAY-PROOF.md)
-
+7. [First-wave launch package](program/launch/)
+8. [Integrated proof](demo/90-DAY-PROOF.md)
