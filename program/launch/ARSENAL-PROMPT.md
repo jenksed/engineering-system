@@ -8,7 +8,7 @@ Start only after verifying:
 
 - `main` and your branch base are exactly `980a58d331f4ed0679e6ae306b9d55b2ee21d179`;
 - the checkout is clean;
-- you have read `AGENTS.md`, the Engineering Doctrine files it names, and `engineering-system/program/work-packages/ARSENAL-01.md` from accepted contract ref `a087c7dc3252241e06248d3a8bf2ee28544360ad`.
+- you have read `AGENTS.md`, the Engineering Doctrine files it names, and `engineering-system/program/work-packages/ARSENAL-01.md` from accepted contract ref `f40d143a2cc47ede625375d16cbdc43eff060414`.
 
 Stop on any mismatch.
 

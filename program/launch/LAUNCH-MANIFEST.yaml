@@ -2,11 +2,11 @@ schema: engineering-system/launch-manifest/v0
 observed_at: "2026-08-12"
 status: hold
 owner_authorization_token: AUTHORIZE ENGINEERING SYSTEM FIRST WAVE
-accepted_contract_ref: a087c7dc3252241e06248d3a8bf2ee28544360ad
+accepted_contract_ref: f40d143a2cc47ede625375d16cbdc43eff060414
 repositories:
   engineering_system:
     repository: jenksed/engineering-system
-    accepted_contract_sha: a087c7dc3252241e06248d3a8bf2ee28544360ad
+    accepted_contract_sha: f40d143a2cc47ede625375d16cbdc43eff060414
     access: read-only-for-product-agents
   arsenal:
     repository: jenksed/project-arsenal

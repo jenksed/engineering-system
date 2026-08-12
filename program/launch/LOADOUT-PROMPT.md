@@ -8,7 +8,7 @@ Start only after verifying:
 
 - `main` and your branch base are exactly `cae07f9364c9a65187a7a6fa68710d72474c5dc8`;
 - the checkout is clean;
-- you have read `AGENTS.md`, `docs/PRODUCT-BOUNDARY.md`, `docs/PRODUCT-OBJECTS.md`, and `engineering-system/program/work-packages/LOADOUT-01.md` from accepted contract ref `a087c7dc3252241e06248d3a8bf2ee28544360ad`.
+- you have read `AGENTS.md`, `docs/PRODUCT-BOUNDARY.md`, `docs/PRODUCT-OBJECTS.md`, and `engineering-system/program/work-packages/LOADOUT-01.md` from accepted contract ref `f40d143a2cc47ede625375d16cbdc43eff060414`.
 
 Stop on any mismatch.
 

@@ -4,7 +4,7 @@
 **Repository:** `jenksed/loadout`  
 **Expected starting SHA:** `cae07f9364c9a65187a7a6fa68710d72474c5dc8`  
 **Branch:** `agent/lod-01-repository-recon`
-**Accepted program contract SHA:** `a087c7dc3252241e06248d3a8bf2ee28544360ad`
+**Accepted program contract SHA:** `f40d143a2cc47ede625375d16cbdc43eff060414`
 
 ## Objective
 

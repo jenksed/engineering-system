@@ -4,7 +4,7 @@
 **Repository:** `jenksed/project-arsenal`  
 **Expected starting SHA:** `980a58d331f4ed0679e6ae306b9d55b2ee21d179`  
 **Branch:** `agent/ars-01-epistemic-lifecycle`
-**Accepted program contract SHA:** `a087c7dc3252241e06248d3a8bf2ee28544360ad`
+**Accepted program contract SHA:** `f40d143a2cc47ede625375d16cbdc43eff060414`
 
 ## Objective
 
