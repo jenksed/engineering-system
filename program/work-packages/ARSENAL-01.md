@@ -1,9 +1,10 @@
 # ARS-01 — Epistemic Lifecycle and Repository Recon Qualification Fixture
 
-**Status:** Proposed; launch prohibited until owner approval  
+**Status:** Owner-approved; launch HOLD pending final simultaneous authorization  
 **Repository:** `jenksed/project-arsenal`  
 **Expected starting SHA:** `980a58d331f4ed0679e6ae306b9d55b2ee21d179`  
 **Branch:** `agent/ars-01-epistemic-lifecycle`
+**Accepted program contract SHA:** `a087c7dc3252241e06248d3a8bf2ee28544360ad`
 
 ## Objective
 
@@ -46,4 +47,3 @@ Make Arsenal's R&D role operational by representing method maturity explicitly a
 - Required change conflicts with current source-model authority.
 - The only path requires a cross-product contract change or governance rewrite.
 - Existing evidence cannot support a Qualified record; emit an Experimental record and report the qualification gap instead.
-

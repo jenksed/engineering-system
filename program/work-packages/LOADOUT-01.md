@@ -1,9 +1,10 @@
 # LOD-01 — Repository Recon Capability Vertical Slice
 
-**Status:** Proposed; launch prohibited until owner approval  
+**Status:** Owner-approved; launch HOLD pending final simultaneous authorization  
 **Repository:** `jenksed/loadout`  
-**Expected starting SHA:** Record after bootstrap merge  
+**Expected starting SHA:** `cae07f9364c9a65187a7a6fa68710d72474c5dc8`  
 **Branch:** `agent/lod-01-repository-recon`
+**Accepted program contract SHA:** `a087c7dc3252241e06248d3a8bf2ee28544360ad`
 
 ## Objective
 
@@ -44,8 +45,7 @@ Prove Loadout is a product experience, not merely a package manager, by implemen
 
 ## Stop conditions
 
-- Bootstrap SHA is not merged/current.
+- HEAD differs from the expected SHA.
 - The slice requires real Kiln runtime changes.
 - The implementation needs a Work Envelope semantic change.
 - Product scope expands beyond Repository Recon and its minimum packaging path.
-

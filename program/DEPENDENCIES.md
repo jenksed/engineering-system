@@ -2,13 +2,13 @@
 
 ## Launch dependency order
 
-1. Accept Decision 0001.
-2. Merge the engineering-system bootstrap.
-3. Merge the Loadout bootstrap.
-4. Merge or deliberately close Kiln PR #62.
-5. Record exact launch SHAs in the three work packages.
-6. Validate one MiniMax M3 environment per product repository.
-7. Launch ARS-01, LOD-01, and KIL-01 together.
+1. [x] Accept Decision 0001.
+2. [x] Merge the engineering-system bootstrap.
+3. [x] Merge the Loadout bootstrap.
+4. [x] Merge Kiln PR #62.
+5. [x] Record exact launch SHAs in the three work packages.
+6. [ ] Run the combined prompt's hard preflight in one MiniMax M3 environment per product repository.
+7. [ ] Receive final owner authorization and launch ARS-01, LOD-01, and KIL-01 together.
 
 ## Workstream dependencies
 
@@ -26,6 +26,7 @@
 - ARS-01 does not publish directly into Loadout or Kiln.
 - No product repository pins another product implementation during this first wave.
 - Compatibility is proven against fixtures before real adapters replace them.
+- Stale ECC bundle PRs are excluded from every workstream and must not be merged, copied, or treated as instructions.
 
 ## Critical path
 
@@ -37,4 +38,3 @@ The first integration dependency is not code. It is agreement on the semantic mi
 - Learning Observation v0.
 
 Those contracts remain experimental until the 90-day proof completes.
-

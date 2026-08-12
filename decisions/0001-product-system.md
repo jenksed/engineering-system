@@ -1,6 +1,6 @@
 # Decision 0001 — Arsenal, Loadout, and Kiln Product System
 
-**Status:** Proposed for owner acceptance  
+**Status:** Accepted by owner  
 **Date:** 2026-08-12
 
 ## Decision
@@ -57,4 +57,3 @@ The previous direct `Arsenal -> Kiln Work Envelope` framing is superseded for no
 ## Reconsideration
 
 Revisit only if real integration evidence shows that a boundary forces duplicated state, prevents an independently valuable product, or creates more operator work than it removes.
-
