@@ -33,12 +33,18 @@ The integration verifier runs this proof from clean, built product
 artifacts (no uncommitted working-tree code). The verifier:
 
 1. Builds product CLIs from the exact merged heads.
-2. Checks out the proof repository at its known commit.
-3. Runs the golden path (TEST-MATRIX §A).
-4. Runs the restart durability proof (TEST-MATRIX §B).
-5. Runs the 8 negative cases (TEST-MATRIX §C).
-6. Runs the dogfood against one real project repo (TEST-MATRIX §D).
-7. Writes the result to `run-logs/<run-id>.md` with the WAVE-3-SYSTEM-PROOF
+2. Initializes the proof repository under a temp directory: `git init
+   && git add -A && git commit -m "Initial deterministic proof-repo
+   fixture"`. The fixture files themselves live in this engineering-system
+   commit and are copied verbatim; the `.git` is verifier-local so the
+   proof repo is a real-on-disk git repo without nesting inside the
+   engineering-system `.git`.
+3. Records the proof-repo HEAD commit for the integration proof log.
+4. Runs the golden path (TEST-MATRIX §A).
+5. Runs the restart durability proof (TEST-MATRIX §B).
+6. Runs the 8 negative cases (TEST-MATRIX §C).
+7. Runs the dogfood against one real project repo (TEST-MATRIX §D).
+8. Writes the result to `run-logs/<run-id>.md` with the WAVE-3-SYSTEM-PROOF
    block populated.
 
 ## Acceptance
