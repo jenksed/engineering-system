@@ -4,7 +4,7 @@
 
 | Product | Wave 5 accepted main SHA |
 |---|---|
-| Project Arsenal | `0acbad2f298cd26cfc66b6ca9ff2948bd75e03c8` |
+| Project Arsenal | `c33f95121eb72518c75c3761f5428684517fc5a7` |
 | Loadout | `c29a1df7d302c9043360fdf40431a6f079bbb4b1` |
 | Kiln | `bd2c9bcf715c99ef4f126179c1739c3b031039fc` |
 | Temper | `57e78b576105dc9c4051f133d0b4697b2e35a8a0` |
@@ -12,6 +12,12 @@
 Project Arsenal and Loadout exact-head CI were green before merge. Canonical
 Loadout main was then clean-installed and passed its full CI surface. The two
 old ECC-only PRs in Arsenal and Kiln were deliberately ignored.
+
+The Project Arsenal generalization Run targeted evaluation merge
+`0acbad2f298cd26cfc66b6ca9ff2948bd75e03c8`. Final main
+`c33f95121eb72518c75c3761f5428684517fc5a7` differs only by the subsequent
+productized proof binding to repaired Loadout main; all four exact-head Arsenal
+workflows passed on that final binding before merge.
 
 ## Original dogfood before and after
 
